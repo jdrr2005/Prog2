@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 mar 2023, 10:35:58
+    Author     : JOHN JAIRO
+*/
+
+h1{
+    font-family: cursive;
+    color: azure;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    height: 50%;
+    width: 50%;
+    margin: -25% 0 0 -25%;
+}
+p{
+   font-family: fantasy;
+   font-size: large;
+   color: azure;
+   position: absolute;
+   top: 80%;
+   left: 65%;
+   height: 50%;
+   width: 50%;
+   margin: -25% 0 0 -25%;
+}
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-image: url('https://i.pinimg.com/736x/f9/b5/52/f9b5520cb4240ee76aad7ee2685d662a.jpg');
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  color: #ffffff;
+  font-size: large;
+  font-family: fantasy;
+  
+ 
+  
+}
+html {
+  font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+}
