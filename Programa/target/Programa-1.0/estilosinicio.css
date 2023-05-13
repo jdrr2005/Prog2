@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+.elemento {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.base {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #000;
+    background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-green-multi-level-superimposed-watercolor-wallpaper-picture-image_1432713.jpg");
+}
+
+.explorador {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.exploradortitu {
+    font-weight: 300;
+}
+.exploradordirec {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+
+.contenidobase {
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.titulobase {
+    font-size: 3rem;
+}
+.parafobase {
+    margin-bottom: 20px;
+}
+.boton {
+    display: inline-block;
+    background-color: #99ff99;
+    justify-self: center;
+    color: #000;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+.info {
+    text-align: center;
+}
+.subtitulo {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.parafoinfo {
+    line-height: 1.5;
+}
+.menuinfo {
+    padding-top: 50px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+}
+.iconosinfo {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pequeinfo{
+    width: 40px;
+}
+.conocer {
+    background-color: #99ff99;
+    background-image: radial-gradient(#333333 0.5px, transparent 0.5px), radial-gradient(#e5e5f7 0.5px, #99ff99 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+.contenidoconocer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+    
+}
+.fotoconocer{
+    max-width: 500px;
+}
+.parrafoconocer{
+    line-height: 1.7;
+    margin-bottom: 15px;
+     width: 100%;
+    display: block;
+}
+
+.col{
+    text-align: center;
+}
+.tablacol{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.canecas{
+    background-color: #FFF;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+    --color-plan: #696871;
+    --color-price: #1D293F;
+    --bg-cta: #fff;
+    --color-cta: #5454D4;
+    --color-items: #696871;
+}
+.canecas2{
+    width: 370px;
+    padding: 60px 40px;
+    background-color: black;
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #fff;
+    --bg-cta: #9F3919;
+    --color-cta: #FFF;
+    --color-items: #fff;
+}
+.canecas3{
+    background-color: #009900;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+    --color-plan: #fff;
+    --color-price: #fff;
+    --bg-cta: #fff;
+    --color-cta: #fff;
+    --color-items: #fff;
+}
+.titulocol{
+    font-size: 2.5rem;
+    color: var(--color-price);
+}
+.infocol{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--color-items);
+}
+
+.frase{
+    background-color: #ccffcc;
+}
+.contenidofrase{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+.cuerpofrase{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+.cuerpofrase2{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+.testimony__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+.textofrase{
+    max-width: 700px;
+}
+

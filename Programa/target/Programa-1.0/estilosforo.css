@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-green-multi-level-superimposed-watercolor-wallpaper-picture-image_1432713.jpg');
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#reseñas {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#reseñas label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#reseñas input[type="text"],
+#reseñas textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#reseñas input[type="submit"] {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#reseñas input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#publicaciones {
+  margin-top: 20px;
+}
+
+#publicaciones p {
+  background-color: black;
+  padding: 10px;
+}
+
+.boton {
+    float:right; 
+    margin-right:30px; 
+    padding:15px; 
+    border-radius:25px; 
+    background-color: #99ff99;
+}
+

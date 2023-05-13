@@ -1,0 +1,84 @@
+/* Estilos para el cuerpo de la página */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background: url('https://www.solofondos.com/wp-content/uploads/2018/03/Descargar-Fondos-De-Pantalla-Animadas-1.gif') repeat;
+	animation: moveBackground 20s linear infinite;
+  }
+  
+  /* Animación de fondo */
+  @keyframes moveBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+  }
+  
+  /* Estilos para el contenedor */
+  .contenedor {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height: auto;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+  }
+  
+  /* Estilos para el título */
+  .contenedor h1 {
+	margin-top: 0;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+	margin-top: 10px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #333;
+	font-size: 16px;
+  }
+  
+  /* Estilos específicos para el campo de contraseña */
+  input[type="password"] {
+	background-color: #f9f9f9;
+  }
+  
+  /* Estilos para el botón de envío */
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #45a049;
+  }
